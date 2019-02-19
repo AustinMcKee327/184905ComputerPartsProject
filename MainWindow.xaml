@@ -1,0 +1,19 @@
+﻿<Window x:Class="_184905ComputerPartsProject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_184905ComputerPartsProject"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="550" Width="750">
+    <Canvas Margin="0,0,0,46">
+        <Label Canvas.Left="266" FontSize="24" RenderTransformOrigin="-0.08,0.234">Computer Parts List:</Label>
+        <Button x:Name="CPUButton" Content="Click For CPU Information!" FontSize="18" Click="CPUButton_Click" Canvas.Top="70" Canvas.Left="10"/>
+        <Button x:Name="MotherboardButton" Content="Click For Motherboard Information!" FontSize="18" Click="MotherboardButton_Click" Canvas.Left="447" Canvas.Top="70"/>
+        <Button x:Name="RAMButton" Content="Click For RAM Information!" Click="RAMButton_Click" FontSize="18" Canvas.Left="10" Canvas.Top="196"/>
+        <Button x:Name="DiskDriveButton" Content="Click For Disk Drive Information!" FontSize="18" Click="DiskDriveButton_Click" Canvas.Left="473" Canvas.Top="196"/>
+        <Button x:Name="PowerSupplyButton" Content="Click For Power Supply Information!" FontSize="18" Click="PowerSupplyButton_Click" Canvas.Left="10" Canvas.Top="312"/>
+        <Button x:Name="GraphicsCardButton" Content="Click For Graphics Card Information!" FontSize="18" Click="GraphicsCardButton_Click" Canvas.Left="442" Canvas.Top="312"/>
+        <Button x:Name="OpticalDriveButton" Content="Click For Optical Drive Information" FontSize="18" Click="OpticalDriveButton_Click" Canvas.Left="232" Canvas.Top="406"/>
+    </Canvas>
+</Window>
