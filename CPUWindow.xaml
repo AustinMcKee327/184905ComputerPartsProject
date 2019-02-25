@@ -1,12 +1,18 @@
-﻿<Window x:Class="_184905ComputerPartsProject.CPUWindow"
+﻿<Window x:Class="_184905ComputerPartProject.CPUWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:_184905ComputerPartsProject"
+        xmlns:local="clr-namespace:_184905ComputerPartProject"
         mc:Ignorable="d"
-        Title="CPUWindow" Height="300" Width="300">
+        Title="CPUWindow" Height="600" Width="500">
     <StackPanel>
-        <Button x:Name="ClosingButton" Content="Click to close" Click="ClosingButton_Click" />
+        <Button x:Name="Intel7CPUImage" Width="500" Height="500" Click="Intel7CPUImage_Click" VerticalContentAlignment="Bottom" Content="Click To View Supplier Website">
+            <Button.Background>
+                <ImageBrush ImageSource="https://c1.neweggimages.com/ProductImageCompressAll1280/19-117-727-Z01.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="ExplanationButton" Content="Why should you buy this part?" Click="ExplanationButton_Click" FontSize="18" />
+        <Button x:Name="ClosingButton" Content="Click to close" Click="ClosingButton_Click" FontSize="18" />
     </StackPanel>
 </Window>

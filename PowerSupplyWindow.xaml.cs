@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace _184905ComputerPartProject
 {
     /// <summary>
-    /// Interaction logic for MotherboardWindow.xaml
+    /// Interaction logic for PowerSupplyWindow.xaml
     /// </summary>
-    public partial class MotherboardWindow : Window
+    public partial class PowerSupplyWindow : Window
     {
-        public MotherboardWindow()
+        public PowerSupplyWindow()
         {
             InitializeComponent();
         }
@@ -33,12 +33,17 @@ namespace _184905ComputerPartProject
         private void ExplanationButton_Click(object sender, RoutedEventArgs e)
         {
             //ExplanationButton.Content = 
-                MessageBox.Show("The Motherboard is a connector of all the pieces of the computer. It holds the CPU, RAM and Graphics Card. It has a LGA 1151 cable to connect to the CPU correctly. It has four RAM slots, in case at some point you need to add additional RAM past the 16GB included in the RAM section.");
+                MessageBox.Show("You should buy this part for your computer because...");
         }
 
-        private void MotherboardImage_Click(object sender, RoutedEventArgs e)
+        private void CaseImage_Click(object sender, RoutedEventArgs e)
         {
-            Process.Start("https://www.newegg.ca/Product/Product.aspx?Item=9SIA7BB3KE5015&ignorebbr=1");
+            Process.Start("https://www.newegg.ca/Product/Product.aspx?Item=9SIA7RD2WX2993&ignorebbr=1");
+        }
+
+        private void PowerSupplyImage_Click(object sender, RoutedEventArgs e)
+        {
+            Process.Start("https://www.newegg.ca/Product/Product.aspx?Item=N82E16817438136&ignorebbr=1");
         }
     }
 }

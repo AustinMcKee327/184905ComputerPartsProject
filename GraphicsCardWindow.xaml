@@ -1,18 +1,18 @@
-﻿<Window x:Class="_184905ComputerPartProject.MotherboardWindow"
+﻿<Window x:Class="_184905ComputerPartProject.GraphicsCardWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_184905ComputerPartProject"
         mc:Ignorable="d"
-        Title="MotherboardWindow" Height="600" Width="500">
+        Title="GraphicsCardWindow" Height="600" Width="550">
     <StackPanel>
-        <Button x:Name="MotherboardImage" Width="500" Height="500" Click="MotherboardImage_Click" VerticalContentAlignment="Bottom" Content="Click To View Supplier Website">
+        <Button x:Name="GraphicsCardImage" Width="500" Height="500" Click="GraphicsCardImage_Click" VerticalContentAlignment="Bottom" Content="Click To View Supplier Website">
             <Button.Background>
-                <ImageBrush ImageSource="https://c1.neweggimages.com/ProductImage/13-128-876-04.jpg"/>
+                <ImageBrush ImageSource="https://c1.neweggimages.com/NeweggImage/ProductImageCompressAll1280/AE7U_1_201709302123255986.jpg"/>
             </Button.Background>
         </Button>
         <Button x:Name="ExplanationButton" Content="Why should you buy this part?" Click="ExplanationButton_Click" FontSize="18" />
-        <Button x:Name="ClosingButton" Content="This button closes this window" Click="ClosingButton_Click"  FontSize="18" />
+        <Button x:Name="ClosingButton" Content="Click this button to close" Click="ClosingButton_Click" FontSize="18" />
     </StackPanel>
 </Window>

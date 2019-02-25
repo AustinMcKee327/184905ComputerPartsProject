@@ -1,0 +1,23 @@
+﻿<Window x:Class="_184905ComputerPartProject.PowerSupplyWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_184905ComputerPartProject"
+        mc:Ignorable="d"
+        Title="PowerSupplyWindow" Height="600" Width="800">
+    <StackPanel>
+        <Button x:Name="PowerSupplyImage" Width="250" Height="250" Click="PowerSupplyImage_Click" VerticalContentAlignment="Bottom" Content="Click To View Supplier Website">
+            <Button.Background>
+                <ImageBrush ImageSource="https://c1.neweggimages.com/NeweggImage/ProductImageCompressAll1280/17-438-136-V04.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="CaseImage" Width="250" Height="250" Click="CaseImage_Click" VerticalContentAlignment="Bottom" Content="Click To View Supplier Website">
+            <Button.Background>
+                <ImageBrush ImageSource="https://c1.neweggimages.com/ProductImageCompressAll1280/11-139-058-01.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="ExplanationButton" Content="Why should you buy this part?" Click="ExplanationButton_Click" FontSize="18" />
+        <Button x:Name="ClosingButton" Content="This is the close window button" Click="ClosingButton_Click" FontSize="18" />
+    </StackPanel>
+</Window>

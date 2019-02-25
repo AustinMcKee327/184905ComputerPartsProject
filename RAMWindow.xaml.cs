@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace _184905ComputerPartProject
 {
     /// <summary>
-    /// Interaction logic for MotherboardWindow.xaml
+    /// Interaction logic for RAMWindow.xaml
     /// </summary>
-    public partial class MotherboardWindow : Window
+    public partial class RAMWindow : Window
     {
-        public MotherboardWindow()
+        public RAMWindow()
         {
             InitializeComponent();
         }
@@ -33,12 +33,12 @@ namespace _184905ComputerPartProject
         private void ExplanationButton_Click(object sender, RoutedEventArgs e)
         {
             //ExplanationButton.Content = 
-                MessageBox.Show("The Motherboard is a connector of all the pieces of the computer. It holds the CPU, RAM and Graphics Card. It has a LGA 1151 cable to connect to the CPU correctly. It has four RAM slots, in case at some point you need to add additional RAM past the 16GB included in the RAM section.");
+                MessageBox.Show("This RAM is a good choice because there is 16GB RAM, the CAD programs should run smoothly, as per the recommendations by Solid Works. It runs at 3600 mHz. It was also origanlly designed for an Intel Motherboard so it will fit and run at the correct timings of 19-20-20.");
         }
 
-        private void MotherboardImage_Click(object sender, RoutedEventArgs e)
+        private void RAMImage_Click(object sender, RoutedEventArgs e)
         {
-            Process.Start("https://www.newegg.ca/Product/Product.aspx?Item=9SIA7BB3KE5015&ignorebbr=1");
+            Process.Start("https://www.newegg.ca/Product/Product.aspx?Item=N82E16820232731");
         }
     }
 }

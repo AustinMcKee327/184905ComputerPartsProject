@@ -1,18 +1,18 @@
-﻿<Window x:Class="_184905ComputerPartProject.MotherboardWindow"
+﻿<Window x:Class="_184905ComputerPartProject.DiskDriveWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_184905ComputerPartProject"
         mc:Ignorable="d"
-        Title="MotherboardWindow" Height="600" Width="500">
+        Title="DiskDriveWindow" Height="600" Width="800">
     <StackPanel>
-        <Button x:Name="MotherboardImage" Width="500" Height="500" Click="MotherboardImage_Click" VerticalContentAlignment="Bottom" Content="Click To View Supplier Website">
+        <Button x:Name="DiskDriveImage" Width="500" Height="500" Click="DiskDriveImage_Click" VerticalContentAlignment="Bottom" Content="Click To View Supplier Website">
             <Button.Background>
-                <ImageBrush ImageSource="https://c1.neweggimages.com/ProductImage/13-128-876-04.jpg"/>
+                <ImageBrush ImageSource="https://c1.neweggimages.com/ProductImage/20-167-449-V08.jpg"/>
             </Button.Background>
         </Button>
         <Button x:Name="ExplanationButton" Content="Why should you buy this part?" Click="ExplanationButton_Click" FontSize="18" />
-        <Button x:Name="ClosingButton" Content="This button closes this window" Click="ClosingButton_Click"  FontSize="18" />
+        <Button x:Name="ClosingButton" Content="Click this to Close the window" Click="ClosingButton_Click" FontSize="18" />
     </StackPanel>
 </Window>

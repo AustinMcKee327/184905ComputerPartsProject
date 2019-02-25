@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace _184905ComputerPartsProject
+namespace _184905ComputerPartProject
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -28,7 +28,7 @@ namespace _184905ComputerPartsProject
         private void CPUButton_Click(object sender, RoutedEventArgs e)
         {
             CPUWindow cw = new CPUWindow();
-          cw.ShowDialog();
+            cw.ShowDialog();
         }
 
         private void MotherboardButton_Click(object sender, RoutedEventArgs e)
@@ -39,27 +39,32 @@ namespace _184905ComputerPartsProject
 
         private void RAMButton_Click(object sender, RoutedEventArgs e)
         {
-
+            RAMWindow rw = new RAMWindow();
+            rw.ShowDialog();
         }
 
         private void DiskDriveButton_Click(object sender, RoutedEventArgs e)
         {
-
+            DiskDriveWindow ddw = new DiskDriveWindow();
+            ddw.ShowDialog();
         }
 
         private void PowerSupplyButton_Click(object sender, RoutedEventArgs e)
         {
-
+            PowerSupplyWindow psw = new PowerSupplyWindow();
+            psw.ShowDialog();
         }
 
         private void GraphicsCardButton_Click(object sender, RoutedEventArgs e)
         {
-
+            GraphicsCardWindow gcw = new GraphicsCardWindow();
+            gcw.ShowDialog();
         }
 
         private void OpticalDriveButton_Click(object sender, RoutedEventArgs e)
         {
-
-        }
+            OpticalDriveWindow odw = new OpticalDriveWindow();
+            odw.ShowDialog();
+        }  
     }
 }
